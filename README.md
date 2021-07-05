@@ -1,1 +1,3 @@
 # strouselab
+
+This Python code was used for the fitting of LCP and RCP spectra from experimental absorption spectra onto experimental MCD spectra to calculate a field-dependent Zeeman splitting value and subsequent effective mass value. This process is unique in the sense that every field strength can be calculated for an effective mass value with only one experimental MCD run which sweeps through various magnetic field strengths, and every field integer can subsequently be treated as its own experiment. Simulated MCD spectra are performed using the Scipy.optimize.curve_fit() Python function, utilizing the Trust Region Reflective algorithm to provide a simulation of best fit, using EZ as the dependent variable for minimization.
